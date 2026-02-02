@@ -23,9 +23,16 @@ and performance evaluation.
 - Designed and trained deep learning architectures
 - Evaluated performance using accuracy and loss metrics
 
+## Model Interpretability (Grad-CAM)
+To enhance model transparency and interpretability, Gradient-weighted Class Activation Mapping (Grad-CAM) was applied.
+Grad-CAM visualizations were used to highlight the regions of input images that most influenced model predictions.
+This approach helped validate that the model focused on meaningful features rather than background noise,
+improving trust and qualitative evaluation of the deep learning model.
+
 ## Results
-- Achieved high model accuracy on validation data
-- Visualized training and validation performance using loss and accuracy curves
+- Achieved high classification accuracy on validation data
+- Grad-CAM visualizations confirmed that the model focused on relevant regions of interest
+- Improved interpretability and confidence in model predictions
 
 ## How to Run
 1. Open the notebook using Google Colab or Jupyter Notebook
